@@ -1,0 +1,14 @@
+~ start
+~ library_quiz
+
+LibraryBuilding: What is "LIBRARY" called in German?
+LibraryBuilding: BIBLI__HEK
+- BIBLIOTHEK
+	LibraryBuilding: ✓ Correct! Well done!
+	=> END
+- BIBLIETHEK
+	LibraryBuilding: ✓ INcorrect! Try Again!
+	=> END
+- I don't know
+	LibraryBuilding: ✗ The answer is BIBLIOTHEK!
+	=> library_quiz

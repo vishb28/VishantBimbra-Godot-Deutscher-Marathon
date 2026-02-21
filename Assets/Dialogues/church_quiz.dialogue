@@ -1,0 +1,14 @@
+~ start
+~ church_quiz
+
+ChurchBuilding: What is a Church called in German?
+ChurchBuilding: HINT: K__CHE 
+- KIRCHE
+	ChurchBuilding: ✓ Correct! Well done!
+	=> END
+- KIERCHE
+	ChurchBuilding: ✓ Correct! Well done!
+	=> END
+- I don't know
+	ChurchBuilding: ✗ The answer is Kirche!
+	=> church_quiz

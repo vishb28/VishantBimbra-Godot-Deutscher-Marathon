@@ -1,0 +1,14 @@
+~ start
+~ bakery_quiz
+
+BakeryBuilding: What do you like to eat at bakery?
+BakeryBuilding: HINT: Apfel_Ashce ODER CROISSANT ODER  Brötchen
+- ApfelTASCHEN
+	BakeryBuilding: ✓ Great! Guten Appetit!
+	=> END
+- CROISSANT
+	BakeryBuilding: ✓ Great! Guten Appetit!
+	=> END
+- BROTCHEN
+	BakeryBuilding: ✗ Great! Guten Appetit!
+	=> bakery_quiz

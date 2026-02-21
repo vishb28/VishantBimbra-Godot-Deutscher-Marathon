@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://djs8q0imn0r3r"
+path="res://.godot/imported/church_quiz.dialogue-b07c3ee9633819d78a90f318485ee1d0.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/church_quiz.dialogue"
+dest_files=["res://.godot/imported/church_quiz.dialogue-b07c3ee9633819d78a90f318485ee1d0.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,14 @@
+~ start
+~ university_quiz
+
+UniversityBuilding: What is University called in German?
+UniversityBuilding: HINT: HOCH__CHULE oder UNIVERS__TÄT
+- Hochschule
+	UniversityBuilding: ✓ Correct! Well done!
+	=> END
+- Universität
+	UniversityBuilding: ✓ Correct! Well done!
+	=> END
+- I don't know
+	UniversityBuilding: ✗ The answer is Hochschule or Universität!
+	=> university_quiz

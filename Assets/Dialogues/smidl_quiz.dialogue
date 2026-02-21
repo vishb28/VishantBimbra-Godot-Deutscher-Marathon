@@ -1,0 +1,11 @@
+~ start
+~ smidl_quiz
+
+UniversityBuilding: What is SMIDL used for>
+UniversityBuilding: HINT: Le__nsmittel ODER Ap__heke
+- Lebensmittel
+	SmidlBuilding: ✓ Correct! Well done!
+	=> END
+- Apotheke
+	UniversityBuilding: ✗ This is Incorrect!
+	=> smidl_quiz

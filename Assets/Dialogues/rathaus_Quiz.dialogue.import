@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c7gh4iq3p0ui4"
+path="res://.godot/imported/rathaus_Quiz.dialogue-43f52b7ca5738066ff5adf3ce6222015.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/rathaus_Quiz.dialogue"
+dest_files=["res://.godot/imported/rathaus_Quiz.dialogue-43f52b7ca5738066ff5adf3ce6222015.tres"]
+
+[params]
+
+defaults=true

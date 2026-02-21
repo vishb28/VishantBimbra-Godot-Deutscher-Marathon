@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0jweex1trbp4"]
+
+[ext_resource type="Script" uid="uid://disybo1q8tanp" path="res://question_popup.gd" id="1_3ko71"]
+[ext_resource type="Script" uid="uid://bwt51s38k5gu0" path="res://label.gd" id="2_dvqup"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_3ko71")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="QuestionText" type="Label" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "What is the German word for University?"
+script = ExtResource("2_dvqup")
+
+[node name="HintText" type="Label" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hint: Hoch_hule Oder Univer_tat.."
+
+[node name="AnswerInput" type="LineEdit" parent="Panel"]
+layout_mode = 0
+offset_right = 68.5625
+offset_bottom = 31.0
+placeholder_text = "\"Enter Answer\""
+
+[node name="Button" type="Button" parent="Panel"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "SUBMIT"
+
+[node name="Result" type="Label" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_button_pressed"]

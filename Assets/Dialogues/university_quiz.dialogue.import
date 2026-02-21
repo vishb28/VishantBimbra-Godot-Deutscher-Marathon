@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://doo671je0cd1n"
+path="res://.godot/imported/university_quiz.dialogue-9cbcaf0e30a35328f98c3cb84f1d97be.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/university_quiz.dialogue"
+dest_files=["res://.godot/imported/university_quiz.dialogue-9cbcaf0e30a35328f98c3cb84f1d97be.tres"]
+
+[params]
+
+defaults=true

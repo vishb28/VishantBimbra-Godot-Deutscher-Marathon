@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dd54fnujosndy"
+path="res://.godot/imported/smidl_quiz.dialogue-1a2f397bdda3bb186da1398d02900d56.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/smidl_quiz.dialogue"
+dest_files=["res://.godot/imported/smidl_quiz.dialogue-1a2f397bdda3bb186da1398d02900d56.tres"]
+
+[params]
+
+defaults=true

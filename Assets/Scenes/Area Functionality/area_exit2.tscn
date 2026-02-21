@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqwc5hwoy1dbb"]
+
+[ext_resource type="Script" uid="uid://ckkjtp2mr5vu7" path="res://Assets/Scenes/Area Functionality/area_exit.gd" id="1_c5afo"]
+[ext_resource type="Texture2D" uid="uid://d02l76negu5q0" path="res://Assets/Sprites/Portal1.png" id="2_6vcu2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pwf35"]
+size = Vector2(33, 43.75)
+
+[node name="AreaExit" type="Area2D"]
+collision_layer = 65537
+script = ExtResource("1_c5afo")
+target_scene = "res://Assets/Scenes/Areas/Area1.tscn"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-11.499999, 11.625001)
+scale = Vector2(0.30327868, 0.4235537)
+texture = ExtResource("2_6vcu2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-12, 10)
+shape = SubResource("RectangleShape2D_pwf35")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

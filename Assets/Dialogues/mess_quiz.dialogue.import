@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cc5u5rq2yssxj"
+path="res://.godot/imported/mess_quiz.dialogue-3f5841d70dd30e72a3c98017915a4f66.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/mess_quiz.dialogue"
+dest_files=["res://.godot/imported/mess_quiz.dialogue-3f5841d70dd30e72a3c98017915a4f66.tres"]
+
+[params]
+
+defaults=true

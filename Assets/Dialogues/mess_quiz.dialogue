@@ -1,0 +1,14 @@
+~ start
+~ mess_quiz
+
+MessBuilding: Which card is used to pay for food in Mensa?
+MessBuilding: HINT: TH__Ka
+- THSOKA
+	MessBuilding: ✓ InCorrect! Try Again!
+	=> END
+- THOSKA
+	MessBuilding: ✓ Correct! Well done!
+	=> END
+- I don't know
+	MessBuilding: ✗ The answer is THOSKA Karte!
+	=> mess_quiz

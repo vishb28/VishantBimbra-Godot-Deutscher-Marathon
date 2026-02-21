@@ -1,0 +1,14 @@
+~ start
+~ lab_quiz
+
+LAbBuilding: What subject will you use lab for?
+LabBuilding: HINT: INFORM__IK ODER MASCH__E_BAU
+- INFORMATIK
+	UniversityBuilding: ✓ Correct! Well done!
+	=> END
+- MASCHINENBAU
+	LabBuilding: ✓ Correct! Well done!
+	=> END
+- I don't know
+	LabBuilding: ✗ The answer is INFORMATIK or MASHINENBAU!
+	=> lab_quiz

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://i1vaakcafxb3"
+path="res://.godot/imported/kebab_quiz.dialogue-7b14bdf5666ea4c734aecdf82b1803c2.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/kebab_quiz.dialogue"
+dest_files=["res://.godot/imported/kebab_quiz.dialogue-7b14bdf5666ea4c734aecdf82b1803c2.tres"]
+
+[params]
+
+defaults=true

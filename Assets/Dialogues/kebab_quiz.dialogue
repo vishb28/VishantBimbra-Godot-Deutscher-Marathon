@@ -1,0 +1,15 @@
+~ start
+~ kebab_quiz
+
+KebabBuilding: What do you like to eat at the Kebab Grill?
+KebabBuilding: HINT: dö_er ODER S_warma ODER  Pi__a
+- Döner
+	KebabBuilding: ✓ Great! Guten Appetit!
+	=> END
+- Shwarma
+	KebabBuilding: ✓ Great! Guten Appetit!
+	=> END
+- Pizza
+	KebabBuilding: ✗ Great! Guten Appetit!
+	=> END
+ ~ Kebab_quiz

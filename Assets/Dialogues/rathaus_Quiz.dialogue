@@ -1,0 +1,14 @@
+~ start
+~ rathaus_quiz
+
+RathausBuilding: What do we need to collect from RAT Haus after getting a room in city?
+RathausBuilding: HINT: S__DT ÁNMEUNG 
+- SATDT ÁNMELDUNG 
+	RathausBuilding: ✓ INCORRECT! TRY AGAIN!
+	=> END
+- STADT ÁNMElDUNG 
+	RathausBuilding: ✓ Correct! Well done!
+	=> END
+- I don't know
+	RathausBuilding: ✗ The answer is STADT ÁNMElDUNG 
+	=> rathaus_quiz

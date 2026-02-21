@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bfbynyvex8bnj"
+path="res://.godot/imported/lab_quiz.dialogue-48c5eac63a0388974c14781eefa30446.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/lab_quiz.dialogue"
+dest_files=["res://.godot/imported/lab_quiz.dialogue-48c5eac63a0388974c14781eefa30446.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://q34qnhj7tryw"
+path="res://.godot/imported/bakery_Quiz.dialogue-be8574b294a5be05379f6206653961e8.tres"
+
+[deps]
+
+source_file="res://Assets/Dialogues/bakery_Quiz.dialogue"
+dest_files=["res://.godot/imported/bakery_Quiz.dialogue-be8574b294a5be05379f6206653961e8.tres"]
+
+[params]
+
+defaults=true
